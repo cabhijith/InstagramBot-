@@ -1,0 +1,89 @@
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from time import sleep, strftime
+from random import randint
+
+#------------------------------------------------------------------------------------------------------------------------------
+
+chromedriver_path = 'C:/Users/absis/Downloads/chromedriver_win32/chromedriver.exe' # Change this to your own chromedriver path!
+webdriver = webdriver.Chrome(executable_path=chromedriver_path)
+webdriver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
+sleep(2)
+
+def LoggingIn (user, passs):
+    username = webdriver.find_element_by_name('username')
+    username.send_keys(user)
+
+    password = webdriver.find_element_by_name('password')
+    password.send_keys(passs)
+
+    sleep (3)
+
+    login_form = webdriver.find_element_by_xpath('//*[@id= "react-root"]/section/main/div/article/div/div[1]/div/form/div[4]/button/div')
+    login_form.click()
+
+    sleep(3)
+
+    notif = webdriver.find_element_by_css_selector('body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm')
+    notif.click()
+LoggingIn ('enter ', 'enter')
+
+#-----------------------------------------------------------------------------------------------------------------------
+
+tgs = ['coding']
+followers_list = []
+
+like_counter = 0
+tags_count = -1
+for tags in tgs:
+    tags_count += 1
+    webdriver.get ('https://www.instagram.com/explore/tags/' + tgs[tags_count])
+    sleep (5)
+    image = webdriver.find_element_by_css_selector(' #react-root > section > main > article > div.EZdmt > div > div > div:nth-child(1) > div:nth-child(1) > a > div > div._9AhH0')
+    image.click()
+    sleep(7)
+    
+    
+    
+    for x in range(1,257):   
+        
+
+        #To_Like_A_picture
+        like = webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.ltpMr.Slqrh > span.fr66n > button > span')
+        like.click()
+        like_counter += 1
+        sleep(2)
+        nextt = webdriver.find_element_by_css_selector(' body > div._2dDPU.vCf6V > div.EfHg9 > div > div > a.HBoOv.coreSpriteRightPaginationArrow')
+        nextt.click()
+        sleep(8)
+     
+        
+        
+        if webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > header > div.o-MQd.z8cbW > div.PQo_0.RqtMr > div.bY2yH > button').text == 'Follow':
+            webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > header > div.o-MQd.z8cbW > div.PQo_0.RqtMr > div.bY2yH > button').click()
+            sleep(8)
+            usermane = webdriver.find_element_by_css_selector(' body > div._2dDPU.vCf6V > div.zZYga > div > article > header > div.o-MQd.z8cbW > div.PQo_0.RqtMr > div.e1e1d > h2 > a').text
+            followers_list.append(usermane)
+        else:
+            print ('Already Following')
+
+
+
+
+
+     
+number_of_followers = len(followers_list)
+
+for x in followers_list:
+    number_of_followers -= 1 
+    print ('I followed', followers_list[number_of_followers])
+    
+
+
+
+print ('In this cycle, I liked', like_counter, 'pictures!')    
+print (followers_list)
+print ('I followed these many people:', number_of_followers)
+
+
+
