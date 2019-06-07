@@ -5,3 +5,6 @@ Smart Instagram Bot is a <b>Work in Progress</b>. It aims at making more meaning
 The <i>Smart</i> part of it, I still have to figure out. Currently making a DataSet for the same to train on.
 
 Contact me at - cabhijith001@gmail.com for any suggestions/advice etc.
+
+
+<i> Excessive use of this tool can lead to Instagram banning your account. Use within limits</i>
