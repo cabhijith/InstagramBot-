@@ -1,3 +1,6 @@
+
+
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep, strftime
@@ -44,8 +47,10 @@ for tags in tgs:
     sleep(7)
     
     
-    
-    for x in range(1,257):   
+#Please set the range to something less then 350 per hour. Exceeding this can lead to Instagram banning your account. 
+#For safety, keep it under 250
+
+    for x in range(1,25):   
         
 
         #To_Like_A_picture
