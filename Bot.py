@@ -45,7 +45,7 @@ print(followers_list)
 
 tgs = ['mothersday']
 
-
+followers_count =  0
 like_counter = 0
 tags_count = -1
 for tags in tgs:
@@ -82,7 +82,7 @@ for tags in tgs:
 
 
 number_of_followers = len(followers_list)
-print ('I followed these many people', number_of_followers)
+print ('I followed these many people :: ', followers_count)
 
 for x in followers_list:
     number_of_followers -= 1 
