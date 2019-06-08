@@ -1,5 +1,7 @@
 <h1>Smart Instagram Bot</h1>
 
+https://img.shields.io/badge/<Dependencies>-<Selenium_3.14_and_Above>-<brightgreen>.svg
+
 Smart Instagram Bot is a <b>Work in Progress</b>. It aims at making more meaningful and conversational bots, getting  <b>rid</b> of all those annoying monotonous bots! I have uploaded the first file, <i>Bot.py</i> ,that is the Bot itself. Several functionalities are missing, but I will be adding them in the coming weeks.
 
 <h2> Brief Exaplanations of the files</h2>
