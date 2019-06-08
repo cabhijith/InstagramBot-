@@ -5,7 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep, strftime
 from random import randint
-
+import pandas as pd
+import pickle 
 #------------------------------------------------------------------------------------------------------------------------------
 
 chromedriver_path = 'C:/Users/absis/Downloads/chromedriver_win32/chromedriver.exe' # Change this to your own chromedriver path!
@@ -29,12 +30,18 @@ def LoggingIn (user, passs):
 
     notif = webdriver.find_element_by_css_selector('body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm')
     notif.click()
-LoggingIn ('enter ', 'enter')
+LoggingIn ('Enter', 'Enter')
 
 #-----------------------------------------------------------------------------------------------------------------------
+with open('followers_list_new', 'rb') as f:
+    followers_list= pickle.load(f)
 
-tgs = ['coding']
-followers_list = []
+print(followers_list)
+
+#----------------------------------------------------------------------------------------------------------------------
+
+tgs = ['mothersday']
+
 
 like_counter = 0
 tags_count = -1
@@ -47,10 +54,8 @@ for tags in tgs:
     sleep(7)
     
     
-#Please set the range to something less then 350 per hour. Exceeding this can lead to Instagram banning your account. 
-#For safety, keep it under 250
-
-    for x in range(1,25):   
+    
+    for x in range(1,15):   
         
 
         #To_Like_A_picture
@@ -73,22 +78,25 @@ for tags in tgs:
             print ('Already Following')
 
 
-
-
-
-     
 number_of_followers = len(followers_list)
+print ('I followed these many people', number_of_followers)
 
 for x in followers_list:
     number_of_followers -= 1 
     print ('I followed', followers_list[number_of_followers])
     
 
+with open('followers_list_new', 'wb') as f:
+    pickle.dump(followers_list, f)
+     
+
 
 
 print ('In this cycle, I liked', like_counter, 'pictures!')    
-print (followers_list)
-print ('I followed these many people:', number_of_followers)
+with open('followers_list_new', 'rb') as f:
+    followers_list= pickle.load(f)
+
+print(followers_list)
 
 
 
