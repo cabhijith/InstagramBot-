@@ -4,15 +4,18 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep, strftime
-from random import randint
-import pandas as pd
-import pickle 
+import pickle
+
+#All are standard Python modules except Selenium. Use 'pip install selenium' to download it
+#You will also have to download Chromedriver for it to work on Chrome. Download it here - http://chromedriver.chromium.org/downloads
 #------------------------------------------------------------------------------------------------------------------------------
 
 chromedriver_path = 'C:/Users/absis/Downloads/chromedriver_win32/chromedriver.exe' # Change this to your own chromedriver path!
 webdriver = webdriver.Chrome(executable_path=chromedriver_path)
 webdriver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
 sleep(2)
+
+#The LogginIn function logs into Instagram with your credentials
 
 def LoggingIn (user, passs):
     username = webdriver.find_element_by_name('username')
