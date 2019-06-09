@@ -33,7 +33,8 @@ def LoggingIn (user, passs):
 
     notif = webdriver.find_element_by_css_selector('body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm')
     notif.click()
-LoggingIn ('Enter', 'Enter')
+
+    LoggingIn ('Enter', 'Enter')
 
 #-----------------------------------------------------------------------------------------------------------------------
 with open('followers_list_new', 'rb') as f:
