@@ -17,9 +17,9 @@ Smart Instagram Bot is a <b>Work in Progress</b>. It aims at making more meaning
 
 Here is a list of features currently on the bucketlist that I will be adding. Want more? Contact me
   <ul>
-  <li>Commenting</li>
-  <li>More Details as to whom you follow</li>
-  <li>Using Geo-Tagging</li>
+  <li><b>Commenting</b></li>
+  <li><b>More Details as to whom you follow</b></li>
+  <li><b>Using Geo-Tagging</b></li>
 </ul>
 
 
