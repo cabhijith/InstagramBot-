@@ -55,7 +55,7 @@ for tags in tgs:
     sleep (5)
     image = webdriver.find_element_by_css_selector(' #react-root > section > main > article > div.EZdmt > div > div > div:nth-child(1) > div:nth-child(1) > a > div > div._9AhH0')
     image.click()
-    sleep(7)
+
     
     
     
