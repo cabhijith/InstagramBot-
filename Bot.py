@@ -35,8 +35,10 @@ with open('followers_list_new', 'rb') as f:
 print(followers_list)
 
 #----------------------------------------------------------------------------------------------------------------------
-
+#To use geo tagging, remove the commented out code (40 and 52) and commentout the hastags (39 and 51)
 tgs = ['code']
+#geo-tags = 213480180/washington-district-of-columbia/
+
 
 followers_count =  0
 likes_count = 0
@@ -47,6 +49,7 @@ comments_count = 0
 for tags in tgs:
     tags_count += 1
     webdriver.get ('https://www.instagram.com/explore/tags/' + tgs[tags_count])
+    #webdriver.get ('https://www.instagram.com/explore/locations/'+ geo-tags[tags_count])
     sleep (5)
     image = webdriver.find_element_by_css_selector(' #react-root > section > main > article > div.EZdmt > div > div > div:nth-child(1) > div:nth-child(1) > a > div > div._9AhH0')
     image.click()
