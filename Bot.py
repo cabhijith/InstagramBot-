@@ -3,7 +3,7 @@
 
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from time import sleep, strftime
+from time import sleep
 import pickle
 
 #All are standard Python modules except Selenium. Use 'pip install selenium' to download it
