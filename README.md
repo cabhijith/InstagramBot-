@@ -11,7 +11,7 @@ Smart Instagram Bot is a <b>Work in Progress</b>. It aims at making more meaning
 
 
 <h3><i>UnBot.py</i></h3>
-<b>UnBot.py</b> is the file that unfollows the people that you followed. The reason for this is that Instagram has a follow limit of 7,500. Therefore we got to unfollow the people we earlier followed. This is done by loading the pickle file that we earlier saved and unfollowing each of them. The limit to how many to unfollow can be modified.
+<b>UnBot.py</b> is the file that unfollows the people that you followed. The reason for this is that Instagram has a follow limit of 7,500. Therefore we got to unfollow the people we earlier followed. This is done by loading the pickle file that we earlier saved and unfollowing each of them. The limit to how many to unfollow can be modified.</b>
 
 <h3>To-Do List<h3>
 Here is a list of features currently on the bucketlist that I will be adding. Want more? Contact me
