@@ -7,7 +7,7 @@ Smart Instagram Bot is a <b>Work in Progress</b>. It aims at making more meaning
 <h2> Brief Exaplanations of the files</h2>
 
 <h3><i>Bot.py</i></h3>
-<b>Bot.py</b> is the file that follows and likes the pictures of as per given the hashtags and number of Likes/Follows. The file saves the usernames of the followed people to a list. This list is then converted to a pickle file and stored on your computer.
+<b>Bot.py</b> is the file that follows and likes the pictures of as per given the hashtags and number of Likes/Follows. The file saves the usernames of the followed people to a list. This list is then converted to a pickle file and stored on your computer. I have also added more randomization to the bot to prevent it being detected by Instagram
 
 
 <h3><i>UnBot.py</i></h3>
@@ -19,6 +19,7 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
   <ul>
   <li><strike><b>Commenting</b></strike></li>
   <li><strike><b>Using Geo-Tagging</b></strike></li>
+  
 </ul>
 
 
