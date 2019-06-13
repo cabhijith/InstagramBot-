@@ -21,6 +21,7 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
   <li><strike><b>Using Geo-Tagging</b></strike></li>
   <li><strike><b>Randomization</b></strike></li>
   <li><b>Advanced Randomizations</b></li>
+  <li><b>BookMarking (Saving)</b></li>
   
 </ul>
 
