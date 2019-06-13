@@ -19,6 +19,8 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
   <ul>
   <li><strike><b>Commenting</b></strike></li>
   <li><strike><b>Using Geo-Tagging</b></strike></li>
+  <li><strike><b>Randomization</b></strike></li>
+  <li><b>Advanced Randomizations</b></li>
   
 </ul>
 
