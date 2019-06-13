@@ -68,6 +68,7 @@ for tags in tgs:
             nextt = webdriver.find_element_by_css_selector(' body > div._2dDPU.vCf6V > div.EfHg9 > div > div > a.HBoOv.coreSpriteRightPaginationArrow')
             nextt.click()
             sleep(8)
+            bookmarking = webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.ltpMr.Slqrh > span.wmtNn > button > span').click()
              
             if randint(1,10) > 2:
             #To Follow a Person
