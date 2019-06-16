@@ -20,7 +20,7 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
   <li><strike><b>Commenting</b></strike></li>
   <li><strike><b>Using Geo-Tagging</b></strike></li>
   <li><strike><b>Randomization</b></strike></li>
-  <li><b>Advanced Randomizations</b></li>
+  <li><b><strike>Advanced Randomizations</strike></b></li>
   <li><b><strike>BookMarking (Saving)</strike></b></li>
   <li><b>Automated deleting of comments</b></li>
   
