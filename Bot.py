@@ -28,7 +28,7 @@ def LoggingIn (user, passs):
     notif = webdriver.find_element_by_css_selector('body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm')
     notif.click()
 
-LoggingIn ('revenge089', 'pythontesting')
+LoggingIn ('username', 'password')
 
 #-----------------------------------------------------------------------------------------------------------------------
 with open('followers_list_new', 'rb') as f:
@@ -38,7 +38,7 @@ print(followers_list)
 
 #----------------------------------------------------------------------------------------------------------------------
 
-tgs = ['indiavspakistan']
+tgs = ['cakes']
 Commenting_adjectives = ['Awesome', 'Magnificent', 'Great', 'breathtaking', 'amazing', 'stunning', 'astounding', 'astonishing', 'awe-inspiring', 'stupendous', 'staggering', 'extraordinary', 'incredible']
 #geo-tags = 213480180/washington-district-of-columbia/
 
