@@ -151,7 +151,7 @@ with open('followers_list_new', 'rb') as f:
 
 print(followers_list)
 
-print("It took these many minutes" , (time.time() - start_time/ 60))
+print("It took these many minutes" , (time.time() - start_time/ 60)) ##Time for your program to run
 
 
 
