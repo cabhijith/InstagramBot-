@@ -32,4 +32,4 @@ The <i>Smart</i> part of it, I still have to figure out. Currently making a Data
 Contact me at - cabhijith001@gmail.com for any suggestions/advice etc.
 
 
-<i> Excessive use of this tool can lead to Instagram banning your account. Use within limits (Dont let the bot follow more than ~350 people per hour</i>
+<i> Excessive use of this tool can lead to Instagram banning your account. Use within limits (Dont let the bot follow more than ~350 people per hour) </i>
