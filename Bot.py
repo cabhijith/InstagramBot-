@@ -48,6 +48,7 @@ followers_count =  0
 likes_count = 0
 tags_count = -1
 comments_count = 0
+min_likes = 10 #Modify this to set the minimum number of likes on a post for you to comment on it
 
 
 for tags in tgs:
@@ -104,7 +105,7 @@ for tags in tgs:
                     comment_area = webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > textarea')
                     
                     comments_count += 1
-                    if number_of_likes >5 and number_of_likes <1000:
+                    if number_of_likes > min_likes and number_of_likes <1000:
                         comment_area.send_keys(Commenting_adjectives[randint(0, len(Commenting_adjectives) - 1)] ,' Pic!  Follow back for ', Commenting_adjectives[randint(0, len(Commenting_adjectives) - 1)], "  content:)")
                         sleep(3)
                     elif number_of_likes > 1000:
