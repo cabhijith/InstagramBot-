@@ -40,7 +40,7 @@ print(followers_list)
 #----------------------------------------------------------------------------------------------------------------------
 start_time = time.time()
 
-tgs = ['hacking', 'code', 'python', 'programmar']
+tgs = ['hacking', 'code', 'python', 'programmar'] #Tags of the pictures you want the bot to like, follow and 
 Commenting_adjectives = ['Awesome', 'Magnificent', 'Great', 'breathtaking', 'amazing', 'stunning', 'astounding', 'astonishing', 'awe-inspiring', 'stupendous', 'staggering', 'extraordinary', 'incredible']
 #geo-tags = 213480180/washington-district-of-columbia/
 
