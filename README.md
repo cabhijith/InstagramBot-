@@ -24,7 +24,7 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
   <li><b><strike>BookMarking (Saving)</strike></b></li>
   <li><b>Automated deleting of comments</b></li>
   
-</ul>
+ </ul>
 
 
 The <i>Smart</i> part of it, I still have to figure out. Currently making a DataSet for the same to train on.
