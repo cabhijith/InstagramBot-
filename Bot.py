@@ -3,7 +3,6 @@ from selenium.webdriver.common.keys import Keys
 import time
 from time import sleep, strftime
 from random import randint
-import pandas as pd
 import pickle 
 #------------------------------------------------------------------------------------------------------------------------------
 
@@ -142,9 +141,10 @@ print ('In this cycle', followers_count, 'were followed')
 print ('In this cycle', likes_count, 'pictures were liked!')    
 print ('In this cycle,',comments_count,'comments were made' )
 
-for x in followers_list:
-    number_of_followers -= 1 
-    print ('Till now I have followed', followers_list[number_of_followers])
+#Uncomment this for getting each and every followers that we have folowed till now 
+#for x in followers_list:
+#   number_of_followers -= 1 
+#   print ('Till now I have followed', followers_list[number_of_followers])
     
 
 with open('followers_list_new', 'wb') as f:
