@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
-from time import sleep, 
+from time import sleep
 from random import randint
 import pickle 
 #------------------------------------------------------------------------------------------------------------------------------
