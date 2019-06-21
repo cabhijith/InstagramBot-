@@ -111,7 +111,7 @@ for tags in tgs:
                         sleep(5)
                         comment_area = webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > textarea')
                         
-                        
+                        #Enter your own comments
                         comments_count += 1
                         random_number = randint(1,10)
                         if random_number == 1 or random_number == 2 or random_number == 3:
