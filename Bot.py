@@ -6,7 +6,7 @@ import pandas as pd
 import pickle 
 #------------------------------------------------------------------------------------------------------------------------------
 
-chromedriver_path = 'C:/Users/absis/Downloads/chromedriver_win32/chromedriver.exe' # Change this to your own chromedriver path!
+chromedriver_path = # Change this to your own chromedriver path!
 webdriver = webdriver.Chrome(executable_path=chromedriver_path)
 webdriver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
 sleep(2)
