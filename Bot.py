@@ -23,7 +23,7 @@ def LoggingIn (user, passs):
     login_form = webdriver.find_element_by_xpath('//*[@id= "react-root"]/section/main/div/article/div/div[1]/div/form/div[4]/button/div')
     login_form.click()
 
-    sleep(3)
+    sleep(3) #Change this to more of a value if you ahve to manually login
 
     notif = webdriver.find_element_by_css_selector('body > div.RnEpo.Yx5HN > div > div > div.mt3GC > button.aOOlW.HoLwm')
     notif.click()
