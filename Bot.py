@@ -142,7 +142,6 @@ for tags in tgs:
 
 
 
-                        comment_area.send_keys(Keys.ENTER)
                     else:
                         print('Not COMMENTING on this person. SKIPPING IT')
                 except:
