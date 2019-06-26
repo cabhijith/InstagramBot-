@@ -115,7 +115,7 @@ for tags in tgs:
                         if random_number == 1 or random_number == 2 or random_number == 3:
                             comment_area.send_keys('Hey, @' , username_post, ' ' , Commenting_adjectives[ randint(0, len(Commenting_adjectives) - 1)] ,' post! We also post cool stuff daily. Check us out and give us a follow.')
                             sleep(2)
-                            webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()
+                            webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()#To click the 'Post' button, manually.
                             sleep(2)
 
                         elif random_number == 4 or random_number == 5:
