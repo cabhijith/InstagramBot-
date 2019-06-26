@@ -22,7 +22,7 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
   <li><strike><b>Randomization</b></strike></li>
   <li><b><strike>Advanced Randomizations</strike></b></li>
   <li><b><strike>BookMarking (Saving)</strike></b></li>
-  <li><b?<strike>Commenting on a particular account only once</strike></b></li
+  <li><b?<strike>Commenting on a particular account only once</strike></b></li>
   <li><b>Automated deleting of comments</b></li>
   
  </ul>
