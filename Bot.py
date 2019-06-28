@@ -130,7 +130,7 @@ for tags in tgs:
                              sleep(2)
                         
                         webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()#To click the 'Post' button, manually.
-                         sleep(2)
+                        sleep(2)
 
 
 
