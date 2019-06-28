@@ -115,25 +115,22 @@ for tags in tgs:
                         if random_number == 1 or random_number == 2 or random_number == 3:
                             comment_area.send_keys('Hey, @' , username_post, ' ' , Commenting_adjectives[ randint(0, len(Commenting_adjectives) - 1)] ,' post! We also post cool stuff daily. Check us out and give us a follow.')
                             sleep(2)
-                            webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()#To click the 'Post' button, manually.
-                            sleep(2)
+                            
 
                         elif random_number == 4 or random_number == 5:
                             comment_area.send_keys('Hey, @', username_post, ' ' ,Commenting_adjectives[ randint(0, len(Commenting_adjectives) - 1)] ," post! Let's be friends. Follow us back and you will discover more fun content just like yours. ")
                             sleep(2)
-                            webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()
-                            sleep(2)
-
+                            
                         elif random_number == 6 or random_number == 7:
                              comment_area.send_keys(Commenting_adjectives[ randint(0, len(Commenting_adjectives) - 1)] ,". I've followed you so you HAVE to follow me back, it's an unspoken rule of Instagram. You'll get amazing content as reward.")
-                             webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()
-                             sleep(2)
+                             
 
                         elif random_number == 8 or random_number == 9 or random_number == 10:
                              comment_area.send_keys('Wow, how ',Commenting_adjectives[ randint(0, len(Commenting_adjectives) - 1)] ,". You know what's even cooler? The Fortnightly Scientist. Follow us to be part of our online family:) ")
                              sleep(2)
-                             webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()
-                             sleep(2)
+                        
+                        webdriver.find_element_by_css_selector('body > div._2dDPU.vCf6V > div.zZYga > div > article > div.eo2As > section.sH9wk._JgwE > div > form > button').click()#To click the 'Post' button, manually.
+                         sleep(2)
 
 
 
