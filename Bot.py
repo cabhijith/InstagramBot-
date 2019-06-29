@@ -3,7 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from time import sleep
 from random import randint
 import pickle 
-#------------------------------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------------------
 
 chromedriver_path = # Change this to your own chromedriver path!
 webdriver = webdriver.Chrome(executable_path=chromedriver_path)
