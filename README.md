@@ -30,7 +30,7 @@ Here is a list of features currently on the bucketlist that I will be adding. Wa
 <h4>Results</h4>
 <i> I will be updating this as and when I get new results</i>
 
-With the standard settings, I got a coversion rate of <b>24.71</b> and increased more than 200 followers in 3 days. 
+With the standard settings, I got a coversion rate of <b>24.71</b> and increased more than 200 followers in 3 days.  
 Even after unfollowing all of them, I only lost <b>13</b> followers
 
 
