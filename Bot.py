@@ -29,7 +29,7 @@ def LoggingIn (user, passs):
 LoggingIn ('username', 'password')
 
 #-----------------------------------------------------------------------------------------------------------------------
-with open('followers_list_new', 'rb') as f:
+with open('followers_list_neww', 'rb') as f:
     followers_list= pickle.load(f)
 
 print(followers_list)
@@ -83,7 +83,7 @@ for tags in tgs:
                         followers_list.append(usermane)
                         followers_count += 1
                         
-                        with open('followers_list_new', 'wb') as f:
+                        with open('followers_list_neww', 'wb') as f:
                            pickle.dump(followers_list, f)
 
                     
@@ -167,7 +167,7 @@ for x in followers_list:
      
 
 
-with open('followers_list_new', 'rb') as f:
+with open('followers_list_neww', 'rb') as f:
     followers_list= pickle.load(f)
 
 print(followers_list)
