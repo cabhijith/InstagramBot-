@@ -36,7 +36,7 @@ print(followers_list)
 print(len(followers_list))
 
 #----------------------------------------------------------------------------------------------------------------------
-start_time = time.time()
+
 
 tgs = ['coding']
 Commenting_adjectives = ['awesome',  'great',  'amazing', 'stunning',  'incredible', 'epic', 'really chill', 'uber cool', 'ultra-awesome']
