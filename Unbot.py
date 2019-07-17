@@ -32,7 +32,7 @@ LoggingIn ('username', 'password')
 
 
 
-with open('followers_list_new', 'rb') as f:
+with open('followers_list_neww', 'rb') as f:
     mylist = pickle.load(f)
 
 print(mylist)
@@ -54,10 +54,9 @@ for x in range(1,40 ):
    except:
     continue
 
-with open('followers_list_new', 'wb') as f:
+with open('followers_list_neww', 'wb') as f:
     pickle.dump(mylist, f)
-
-with open('followers_list_new', 'rb') as f:
+with open('followers_list_neww', 'rb') as f:
     mylist= pickle.load(f)
      
 
