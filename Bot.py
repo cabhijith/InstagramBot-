@@ -1,3 +1,6 @@
+#Excessive use of this tool can lead to Instagram banning your account. Use within limits (Dont let the bot follow more than ~350 people
+#per hour)
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
