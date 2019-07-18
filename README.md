@@ -2,7 +2,7 @@
 
 <img src="_Dependencies_-Selenium_3.14_and_Above-_brightgreen_.svg">  <img src = "Status-Work in Progress-success.svg">
 
-To get it to work, install selenium (<i><b>pip install selenium</b></i>) and install chromedriver [here](http://chromedriver.chromium.org/). <br>
+To get it to work, install selenium (```pip install selenium```) and install chromedriver [here](http://chromedriver.chromium.org/). <br>
 
 Smart Instagram Bot is a <b>Work in Progress</b>. It aims at making more meaningful and conversational bots, getting  <b>rid</b> of all those annoying monotonous bots! I have uploaded the first file, <i>Bot.py</i> ,that is the Bot itself. Several functionalities are missing, but I will be adding them in the coming weeks.
 
