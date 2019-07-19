@@ -40,7 +40,7 @@ print(len(followers_list))
 
 #----------------------------------------------------------------------------------------------------------------------
 
-
+#To use geo-tags, UNCOMMENT lines 46 and 57. COMMENt out lines 44 and line 56. Then change the value of 'geo-tags' to the location you want
 tgs = ['coding']
 Commenting_adjectives = ['awesome',  'great',  'amazing', 'stunning',  'incredible', 'epic', 'really chill', 'uber cool', 'ultra-awesome']
 #geo-tags = 213480180/washington-district-of-columbia/
